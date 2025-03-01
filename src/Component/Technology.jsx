@@ -23,12 +23,12 @@ const iconVariants = (duration)=>({
 
 function Technology() {
   return (
-    <div className='w-full border-b border-neutral-800 pb-24'>
+    <div className='w-full border-b border-neutral-300 pb-24'>
       <motion.h1 
       whileInView={{opacity:1, y:0}}
       initial={{opacity:0, y:-100}}
       transition={{duration:1.5}}
-      className='text-4xl text-center my-20 '>Technology</motion.h1>
+      className='text-5xl font-semibold text-gray-600 text-center my-20 '>Technology</motion.h1>
        <motion.div
        whileInView={{opacity:1, x:0}}
        initial={{opacity:0, x:-100}} 
@@ -66,8 +66,8 @@ function Technology() {
         variants={iconVariants(4)}
         initial="initial"
         animate="animate"
-         className='rounded-2xl border-4 border-neutral-800 p-4'>
-        <DiMsqlServer className="text-7xl text-white"/>
+         className='rounded-2xl border-4 border-neutral-800 p-4 text-gray-400'>
+        <DiMsqlServer className="text-7xl "/>
         </motion.div>
         <motion.div
        variants={iconVariants(6)}
