@@ -16,6 +16,7 @@ function App() {
     </div>
       
     <div className="conatiner mx-auto px-8">
+
       <Navbar/>
       <Profile/>
       {/* <About/> */}
