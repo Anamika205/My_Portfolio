@@ -2,11 +2,7 @@ import Shopping from "../assets/shopping.jpg"
 import Travel from "../assets/travel.jpg"
 import Watermarking from "../assets/watermarking.jpg"
 
-export const PROFILE_CONTENT = `II am a Full Stack Developer with a strong foundation in both frontend and backend technologies, specializing in building scalable and efficient web applications. With expertise in React.js, Node.js, and Express.js, I develop dynamic, responsive, and user-friendly interfaces, ensuring seamless user experiences. On the backend, I work with MongoDB and SQL Server, designing and optimizing databases for efficient data management and retrieval.
-
-I have a deep understanding of RESTful APIs, authentication mechanisms like JWT, and cloud deployment using AWS EC2. Additionally, I focus on improving business processes by implementing automation and performance enhancements. I am always eager to learn new technologies, collaborate with cross-functional teams, and contribute innovative solutions that drive business success.
-
-I am passionate about writing clean, maintainable code, following best practices, and ensuring high-quality software delivery. My goal is to continue growing within a dedicated team, leveraging my technical expertise to develop robust applications that solve real-world problems effectively.`
+export const PROFILE_CONTENT = `Dedicated Full Stack Developer skilled in JavaScript, React.js, Node.js, and MongoDB, with a strong focus on building responsive, scalable, and secure web applications. Experienced in developing APIs, implementing dynamic UIs, and deploying applications on cloud platforms like AWS, while ensuring high performance and code maintainability. Always eager to tackle new challenges and stay updated with the latest technologies.`
 
 export const ABOUT_ME = `I am a Full Stack Developer with a strong passion for building scalable, efficient, and user-friendly web applications. With expertise in React.js, Next.js, Node.js, and Express.js, I specialize in developing dynamic front-end interfaces and robust back-end architectures. My experience extends to database management using MongoDB and SQL Server, ensuring efficient data handling and seamless application performance.
 
@@ -49,10 +45,10 @@ export const PROJECT_DETAILS = [
 export const EXPERIENCE_DET = [
     {
         company: "Shiimperial",
-        role: "Full Stack developer",
+        role: "Software Developer",
         Duration: "Mar-24 to Sep-24",
         Work: [
-            "Developed multiple APIs for functionalities including login, registration, OTP generation, a digital marking dashboard, search functionality, and operations for adding, deleting, and updating production data.",
+            `Developed multiple API's for functionalities including login, registration, OTP generation, a digital marking dashboard, search functionality, and operations for adding, deleting, and updating production data.",
             "Developed secure APIs with token-based authentication, authorization, and input data validation to ensure data integrity and prevent security vulnerabilities.",
             "Designed and implemented backend database schemas using MongoDB, structuring collections and documents to optimize data storage, retrieval, and management.",
             "Designed and developed dynamic, user-friendly UI web pages using MUI, React.js, and Next.js, ensuring seamless and responsive user experiences.",
@@ -61,7 +57,7 @@ export const EXPERIENCE_DET = [
             "Used .env files to securely store sensitive data such as tokens, database credentials, and other vulnerable information, ensuring data integrity and security.",
             "Deployed the backend server on AWS EC2 using PM2 and Nginx for process management",
             "Built the frontend code and deployed the website on AWS EC2 using the build output.",
-            "Automated code deployment using GitHub Actions with a .github/workflows/build.yaml file, integrating GitHub Secrets for secure handling of sensitive data, ensuring continuous integration and seamles deployment."
+            "Automated code deployment using GitHub Actions with a .github/workflows/build.yaml file, integrating GitHub Secrets for secure handling of sensitive data, ensuring continuous integration and seamles deployment.`
         ],
 
         technology: ["JavaScript", "React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "SQL", "HTML", "CSS"]
